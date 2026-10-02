@@ -10,4 +10,6 @@ addBtn.addEventListener("click",function(){
   li.textContent = todoText;
 
   todoList.appendChild(li);
+  todoInput.value = "";
+  
 });
